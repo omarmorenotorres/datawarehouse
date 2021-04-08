@@ -1,6 +1,6 @@
-# datawarehouse
+# DATAWAREHOUSE
 
-En este proyecto existen dos carpetas. La primera denominada server, la cual contiene los archivos para correr el api del proyecto. La segunda client, la cual contienen los archivos del cliente del proyecto.
+En este proyecto existen tres carpetas. La primera denominada server, la cual contiene los archivos para correr el api del proyecto. La segunda client, la cual contienen los archivos del cliente del proyecto. POr último la carpeta dump, la cual contiene las colecciones pobladas correspondientes a la base de datos del proyecto.
 
 # STACK DE TECNOLOGÍAS
 + Boostrap
