@@ -37,7 +37,16 @@ API REST corriendo en localhost://3000
 1. Abra la carpeta llamada client en su ide favorito. Se recomienda Visual Studio.
 2. Abra el archivo index.html
 
-# INSERCIÓN EN LA BASE DE DATOS
+# USUARIOS
 
-1. Abra una terminal.
-2. Entre al gestor de mongoDB
+Existen dos tipos de usuarios: los usuarios admin que tienen todos los permisos de acceso al sistema, y los usuarios invitados, los caules tienen restricciones de acceso.
+
+
++ User Admin
+email: bri.reyes@gmail.com
+pass: 12345
+
++ User Invitado
+email: omar.moreno@gmail.com
+pass: 12345
+
