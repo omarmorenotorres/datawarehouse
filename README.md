@@ -17,6 +17,12 @@ En este proyecto existen tres carpetas. La primera denominada server, la cual co
 # CREAR BASE DE DATOS.
 1. Asegurese de tener instalado mongoDB.
 2. Ubiquese en la raíz del proyecto server.
+2.1 Asegurese de tener instalado las mongo tools. Si no lo tiene use el comando:
+
+sudo apt install mongo-tools
+
+Si no usa linux como sistema operativo asegurese de usar el comando equivalente.
+
 3. Ejecute el comando mongorestore --db datawarehouse dump/shop. Este le permitirá cargar la base de datos del proyecto (Revise el path del backaup, se encuentra en la carpeta dump).
 4. Use el comando mongo para accedere a la consola de mongo.
 5. Una vez este en la consola de mongo, ejecute el comando show dbs. Asegurese de tener una nueva base de datos denominada datawarehouse.
