@@ -35,7 +35,9 @@ API REST corriendo en localhost://3000
 
 # CORRER CLIENT
 1. Abra la carpeta llamada client en su ide favorito. Se recomienda Visual Studio.
-2. Abra el archivo index.html
+2. Abra el archivo index.html. Desde el IDE Visual Studio, de click en el botón derecho, seleccione la opción Open with Live Server. Se abrirá un navegador con la ejecución del index.
+3. Se recomienda usar navegador Firefox.
+4. Se necesita tener instalado el complemento de Test Cors corriendo ya que por el consumo de API puede generar un error de origen cruzado.
 
 # USUARIOS
 
