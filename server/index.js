@@ -12,7 +12,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api', apiRouter);
 
-mongoose.connect('mongodb://localhost:27017/datawarehouse', 
+//mongoose.connect('mongodb://localhost:27017/datawarehouse', 
+mongoose.connect('mongodb+srv://admin:f6E59qPTqDV404PB@database.w4jvs.mongodb.net/shop?retryWrites=true&w=majority', 
 { useNewUrlParser: true,  useFindAndModify: false  },  (err, res) =>{
     if (err) {
         return console.log( `Error al conectar a la base de datos: ${err}`);
