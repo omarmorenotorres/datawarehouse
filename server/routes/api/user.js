@@ -75,6 +75,7 @@ router.post('/', [
 
 router.get('/',/*middleware.checkToken,*/ async (req, res) => {
     try {
+        console.log("Log del API");
         const userToken = req.headers['user-token'];
     let payload = {};
         payload = jwt.decode(userToken, 'frase secreta');
